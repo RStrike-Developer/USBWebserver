@@ -41,10 +41,9 @@
 			
 			<div id="Rbutton">
 				<img src="" onclick="">
-			</div>
+			<div>
 			
 		</div>
-		<p>This is the home page</p>
 		
 	</body>
 </html>
