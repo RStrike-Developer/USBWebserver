@@ -1,50 +1,53 @@
 <html>
 	<head>
 	<link rel="stylesheet" href="Home.css">
-	<script>
-		count = 0
-		
-	</script>
+	<script type="text/javascript" src="Home.js"></script>
 	</head>
 	
 	<body>
-		
-		<div id="header">
-			
-		</div>
-		
-		<div class="nav">
-			<nav>
-				<ul>
-					<li href="">Home</li>
-					<li href="">Search</li>
-					<li href="">Login</li>
-				</ul>
-			</nav>
-		</div>
+	<div class="Header">
+		<div class="HeaderImg"> <img src="Images/Header.jpg"> </div>
+	</div>
 	
-		<div class="Carousel">
-			
-			<div id="Lbutton">
-				<img src="" onclick="">
-			</div>
+	<div class="Navbar">
+		<ul>
+			<li href="Home.html">Home</li>
+			<li href="Search.html">Search</li>
+			<li href="Login.html">Login</li>
+	</div>
 		
-			<div id="img1">
-				<img src="">
-			</div>
-			<div id="img2">
-				<img src="">
-			</div>
-			<div id="img3">
-				<img src="">
-			</div>
-			
-			<div id="Rbutton">
-				<img src="" onclick="">
-			</div>
-			
+	<div class="slideshow-container">
+
+		<div class="mySlides fade">
+			<img src="Images/Speakers.jpg" style="width:100%">
 		</div>
-		<p>This is the home page</p>
+
+		<div class="mySlides fade">
+			<img src="Images/Xbox.jpg" style="width:100%">
+		</div>
+
+		<div class="mySlides fade">
+			<img src="Images/Drink.jpg" style="width:100%">
+		</div>
+		
+		<div class="mySlides fade">
+			<img src="Images/3090.jpg" style="width:100%">
+		</div>
+
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+	</div>
+
+	<div style="text-align:center">
+		<span class="dot" onclick="currentSlide(1)"></span> 
+		<span class="dot" onclick="currentSlide(2)"></span> 
+		<span class="dot" onclick="currentSlide(3)"></span> 
+	</div>
 		
 	</body>
+	
+	<footer>
+	Footer Starts Here
+	</footer>
 </html>
